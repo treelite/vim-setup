@@ -1,4 +1,4 @@
-" Treelite VIM Setup
+" Treelite's VIM Setup
 " Maintainer: treelite <c.xinle@gmail.com>
 
 " When started as "evim", evim.vim will already have done these settings.
@@ -114,7 +114,6 @@ endif
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
-
   " Enable file type detection.
   " Use the default filetype settings, so that mail gets 'tw' set to 72,
   " 'cindent' is on in C files, etc.
@@ -142,9 +141,6 @@ if has("autocmd")
     \ endif
 
   augroup END
-
 else
-
   set autoindent		" always set autoindenting on
-
 endif " has("autocmd")
