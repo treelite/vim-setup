@@ -1,0 +1,60 @@
+{
+  "packages": [
+    {
+      "name": "nerdtree",
+      "url": "https://github.com/scrooloose/nerdtree.git"
+    },
+    {
+      "name": "vim-markdown",
+      "url": "https://github.com/plasticboy/vim-markdown.git"
+    },
+    {
+      "name": "neocomplete.vim",
+      "url": "https://github.com/Shougo/neocomplete.vim.git"
+    },
+    {
+      "name": "ctrlp.vim",
+      "url": "https://github.com/ctrlpvim/ctrlp.vim.git"
+    },
+    {
+      "name": "vim-stylus",
+      "url": "https://github.com/wavded/vim-stylus.git"
+    },
+    {
+      "name": "vim-airline",
+      "url": "https://github.com/bling/vim-airline.git"
+    },
+    {
+      "name": "vim-fugitive",
+      "url": "https://github.com/tpope/vim-fugitive.git"
+    },
+    {
+      "name": "editorconfig-vim",
+      "url": "https://github.com/editorconfig/editorconfig-vim.git"
+    },
+    {
+      "name": "vim-gitgutter",
+      "url": "https://github.com/airblade/vim-gitgutter.git"
+    },
+    {
+      "name": "yajs.vim",
+      "url": "https://github.com/othree/yajs.vim.git"
+    },
+    {
+      "name": "fecs-vim",
+      "url": "https://github.com/treelite/fecs-vim"
+    },
+    {
+      "name": "jsc-vim",
+      "url": "https://github.com/treelite/jsc-vim.git"
+    },
+    {
+      "name": "vim-go",
+      "url": "https://github.com/fatih/vim-go.git"
+    },
+    {
+      "name": "yytextmate",
+      "url": "https://github.com/treelite/yytextmate.git"
+    }
+  ]
+}
