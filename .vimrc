@@ -9,7 +9,6 @@ endif
 set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8,gbk,ucs-bom,cp936
-language message zh_CN.UTF-8
 
 execute pathogen#infect()
 
