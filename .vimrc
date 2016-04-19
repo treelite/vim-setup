@@ -44,6 +44,9 @@ set noerrorbells
 set completeopt-=preview
 
 colorscheme yytextmate
+" Respect choice in .vimrc
+let macvim_skip_colorscheme=1
+
 set guifont=menlo:h12
 
 nmap <S-H> :bp<CR>
