@@ -43,9 +43,6 @@ set noerrorbells
 " disable scratch window
 set completeopt-=preview
 
-colorscheme yytextmate
-" Respect choice in .vimrc
-let macvim_skip_colorscheme=1
 
 set guifont=menlo:h12
 
@@ -112,6 +109,9 @@ map Q gq
 if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
+  " Respect choice in .vimrc
+  let macvim_skip_colorscheme=1
+  colorscheme yytextmate
 endif
 
 " Only do this part when compiled with support for autocommands.
