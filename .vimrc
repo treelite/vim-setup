@@ -132,7 +132,7 @@ if has("autocmd")
   au BufRead,BufNewFile *.text set filetype=mkd
   au BufRead,BufNewFile *.es6 set filetype=javascript
   " Remove trailing space
-  au BufWritePre *.js :%s/\s\+$//e
+  au BufWritePre *.js,*.html,*.css,*.styl,*.ejs :%s/\s\+$//e
 
   " When editing a file, always jump to the last known cursor position.
   " Don't do it when the position is invalid or when inside an event handler
