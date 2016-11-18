@@ -30,8 +30,8 @@ set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 
 set autoindent
-set expandtab 
-set tabstop=4 
+set expandtab
+set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set nu
@@ -53,6 +53,10 @@ nmap <D-j> :cn<CR>
 nmap <F2> :nohlsearch<CR>
 nmap <F3> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
+
+" jsc configure
+let g:jsc_author = 'treelite'
+let g:jsc_email = 'c.xinle@gmail.com'
 
 " vim-markdown 配置
 let g:vim_markdown_folding_disabled = 1
@@ -131,8 +135,13 @@ if has("autocmd")
 
   au BufRead,BufNewFile *.text set filetype=mkd
   au BufRead,BufNewFile *.es6 set filetype=javascript
+  au BufRead,BufNewFile *.vue set filetype=html
   " Remove trailing space
-  au BufWritePre *.js,*.html,*.css,*.styl,*.ejs :%s/\s\+$//e
+  au BufWritePre * :%s/\s\+$//e
+
+  " au FileType javascript,html,css,xml set sw=2
+  " au FileType javascript,html,css,xml set ts=2
+  " au FileType javascript,html,css,xml set sts=2
 
   " When editing a file, always jump to the last known cursor position.
   " Don't do it when the position is invalid or when inside an event handler
