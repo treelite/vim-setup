@@ -37,24 +37,24 @@
       "url": "https://github.com/airblade/vim-gitgutter.git"
     },
     {
-      "name": "yajs.vim",
-      "url": "https://github.com/othree/yajs.vim.git"
-    },
-    {
       "name": "fecs-vim",
       "url": "https://github.com/treelite/fecs-vim"
+    },
+    {
+      "name": "yytextmate",
+      "url": "https://github.com/treelite/yytextmate.git"
     },
     {
       "name": "jsc-vim",
       "url": "https://github.com/treelite/jsc-vim.git"
     },
     {
-      "name": "vim-go",
-      "url": "https://github.com/fatih/vim-go.git"
+      "name": "html5",
+      "url": "https://github.com/othree/html5.vim"
     },
     {
-      "name": "yytextmate",
-      "url": "https://github.com/treelite/yytextmate.git"
+      "name": "yajs",
+      "url": "https://github.com/othree/yajs.vim"
     }
   ]
 }
