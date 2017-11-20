@@ -55,6 +55,14 @@
     {
       "name": "yajs",
       "url": "https://github.com/othree/yajs.vim"
+    },
+    {
+      "name": "vim-mustache-handlebars",
+      "url": "https://github.com/mustache/vim-mustache-handlebars"
+    },
+    {
+      "name": "vim-coffee-script",
+      "url": "https://github.com/kchmck/vim-coffee-script"
     }
   ]
 }
